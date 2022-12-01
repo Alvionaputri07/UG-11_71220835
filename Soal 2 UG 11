@@ -1,0 +1,13 @@
+print ("========== Alat Cek Palindrome ==========")
+print ("Masukan kata anda")
+kata = str(input(">> "))
+
+def funPalindrome():
+    if kata == kata[::-1]:
+        print ("Palindrome")
+        print ("Jika dibalik ",kata)
+    else:
+        print ("Bukan Palindrome")
+        print ("Jika dibalik ",kata)
+
+funPalindrome()
